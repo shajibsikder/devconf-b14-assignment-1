@@ -54,7 +54,7 @@
     width: 700px;
 }
 
-.hero h2{
+.hero h1{
     color: white;
     font-size: 45px;
     margin-bottom: 20px;
@@ -62,7 +62,7 @@
 
 .hero p{
     color: white;
-    font-size: 22px;
+    font-size: 17px;
     margin-bottom: 40px;
 }
 
