@@ -1,0 +1,270 @@
+
+
+/* use this html all tag */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* -------------header section design------------- */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+
+
+
+/* All registation button design */
+.constant-btn{
+    background: #2952E3;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+}
+
+
+/* ------------hero section design-------------- */
+.hero{
+    display: flex;
+    background:  url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 630px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content{
+    width: 700px;
+}
+
+.hero h2{
+    color: white;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+
+
+/* -------------meet the speaker section-------------- */
+.spkr-list{
+    padding: 80px 170px;
+}
+
+.spkr-list h2{
+    text-align: center;
+    font-size: 52px;
+    margin-bottom: 45px;
+}
+
+.spkr-card-list{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    gap: 35px;
+}
+
+.spkr-card{
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+}
+
+.spkr-card img{
+    width: 100%;
+}
+
+.spkr-card h3, p{
+    padding: 0 20px;
+}
+
+.ppp{
+    color: blue;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.spkr-card h3{
+    margin: 8px 0;
+}
+
+.spkr-card p{
+    margin-bottom: 15px;
+    color: gray;
+}
+
+
+
+
+/* ----------pricing section------------ */
+.pricing{
+    padding: 80px;
+    text-align: center;
+}
+
+.sub-title{
+    color: gray;
+    margin: 10px 0 40px;
+}
+
+.price-box{
+    display: flex;
+    gap: 20px;
+}
+
+.price-card{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: left;
+    flex: 1;
+}
+
+.price-card h4{
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.price-card h1{
+    margin-bottom: 5px;
+}
+
+.price-card ul{
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.price-card li{
+    margin-bottom: 10px;
+}
+
+.active{
+    background: #0F172A;
+    color: white;
+}
+
+.active h4,
+.active p,
+.active li{
+    color: white;
+}
+
+.btn1{
+    background: white;
+    color: #2952E3;
+    border: 1px solid #2952E3;
+    padding: 14px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn2{
+    background: #2952E3;
+    color: #ffffff;
+    border: 1px solid #000000;
+    padding: 14px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn3{
+    background: white;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 14px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+
+/* ---------------newsletter ai section----- */
+.newsletter{
+    padding: 80px;
+    text-align: center;
+}
+
+.newsletter-box{
+    margin-top: 30px;
+}
+
+.newsletter-box input{
+    width: 350px;
+    padding: 14px;
+    border: 1px solid #aaaaaa;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+
+/* ----------footer section----------- */
+.ftr{
+    background: #0F172A;
+    padding: 38px 80px;
+}
+
+.ftr-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.ftr-logo{
+    height: 45px;
+}
+
+.social-icon-list{
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon-list img{
+    width: 22px;
+}
+
+.ftr-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ftr-bottom p{
+    color: #ccc;
+    font-size: 14px;
+}
+
+.ftr-page{
+    display: flex;
+    gap: 20px;
+}
+
+.ftr-page a, p{
+    color: #adadad;
+    text-decoration: none;
+    font-size: 14px;
+}
