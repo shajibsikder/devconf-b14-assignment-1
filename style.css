@@ -41,7 +41,9 @@
 /* ------------hero section design-------------- */
 .hero{
     display: flex;
-    background:  url("./assets/banner.jpg");
+
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("./assets/banner.jpg");
+    
     background-size: cover;
     background-position: center;
     height: 630px;
