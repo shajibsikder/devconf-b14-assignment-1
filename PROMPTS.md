@@ -1,12 +1,15 @@
-### You are an expert frontend web developer. Write beginner HTML and CSS code. Keep the code short. Use CSS, and html. Create a simple Newsletter section using only HTML and CSS.
+# Prompt
 
-Ans:
-.........................................................................
+### You are an expert frontend web developer. Write beginner HTML and CSS code. Keep the code short. Use only HTML and CSS. Create a simple Newsletter section using only HTML and CSS.
+
+---
+
+# Answer:
 
 ## HTML Code:
 
+```html
 <section class="newsletter">
-
     <h2>Subscribe to Our Newsletter</h2>
 
     <p class="sub-title">
@@ -17,13 +20,14 @@ Ans:
         <input type="email" placeholder="Enter your email">
         <button class="btn">Subscribe</button>
     </div>
-
 </section>
+```
 
-.................................................................
+---
 
 ## CSS Code:
 
+```css
 .newsletter{
     padding: 80px;
     text-align: center;
@@ -40,3 +44,4 @@ Ans:
     border-radius: 8px;
     margin-right: 10px;
 }
+```
