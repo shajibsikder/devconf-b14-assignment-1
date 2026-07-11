@@ -1,9 +1,9 @@
-You are an expert frontend web developer. Write beginner HTML and CSS code. Keep the code short. Use CSS, and html. Create a simple Newsletter section using only HTML and CSS.
+### You are an expert frontend web developer. Write beginner HTML and CSS code. Keep the code short. Use CSS, and html. Create a simple Newsletter section using only HTML and CSS.
 
 Ans:
 .........................................................................
 
-##HTML Code:
+## HTML Code:
 
 <section class="newsletter">
 
@@ -22,7 +22,7 @@ Ans:
 
 .................................................................
 
-##CSS Code:
+## CSS Code:
 
 .newsletter{
     padding: 80px;
